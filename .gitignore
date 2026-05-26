@@ -1,0 +1,43 @@
+# Secrets and local runtime config
+.env
+*.env
+!.env.example
+
+# Local database and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.bak
+*.backup
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Logs and runtime state
+*.log
+*.pid
+*.tmp
+tmp/
+temp/
+
+# SSH keys and certificates
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+telegram_bot_vps_ed25519*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
